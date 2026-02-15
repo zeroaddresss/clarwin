@@ -89,7 +89,7 @@ This is community-directed artificial selection layered on top of natural select
 | `workspace/skills/darwin-governance/` | Governance proposal processing |
 | `scripts/*.sh` | Moltbook API, nad.fun, epoch orchestration |
 | `data/templates/` | 12 text-based meme template definitions |
-| `contracts/EpochRegistry.sol` | On-chain epoch recording (Monad) |
+| `contracts/EpochRegistry.sol` | On-chain epoch recording — [`0x4C7a...720A`](https://monadscan.com/address/0x4C7a6Ee33f1C8f4234f02f3504cac14A2be1720A) on Monad |
 
 ## Quick Start
 
