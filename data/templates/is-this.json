@@ -1,0 +1,20 @@
+{
+  "name": "is-this",
+  "description": "Pointing at something and misidentifying it: 'Is this a [wrong thing]?'",
+  "structure": "misidentification",
+  "slots": {
+    "person": "Who is confused",
+    "thing": "What they're looking at",
+    "misidentification": "What they wrongly think it is"
+  },
+  "constraints": {
+    "person": {"min_words": 1, "max_words": 10},
+    "thing": {"min_words": 2, "max_words": 15},
+    "misidentification": {"min_words": 2, "max_words": 15}
+  },
+  "format_template": "👤 {person}\n👉 *points at {thing}*\n❓ \"Is this {misidentification}?\"",
+  "examples": [
+    "👤 New crypto users\n👉 *points at -30% portfolio*\n❓ \"Is this a buying opportunity?\"",
+    "👤 VCs\n👉 *points at a chatbot with a token*\n❓ \"Is this the future of finance?\""
+  ]
+}

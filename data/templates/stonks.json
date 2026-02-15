@@ -1,0 +1,17 @@
+{
+  "name": "stonks",
+  "description": "Something going up/succeeding for absurd reasons",
+  "structure": "cause-effect-absurd",
+  "slots": {
+    "action": "The absurd or questionable action taken",
+    "result": "The inexplicable positive outcome"
+  },
+  "constraints": {
+    "action": {"min_words": 3, "max_words": 25},
+    "result": {"min_words": 2, "max_words": 15}
+  },
+  "format_template": "📈 Action: {action}\n\nResult: {result}\n\n📈📈📈 STONKS",
+  "examples": [
+    "📈 Action: Bought a token because the ticker was funny\n\nResult: 47x in a week\n\n📈📈📈 STONKS"
+  ]
+}

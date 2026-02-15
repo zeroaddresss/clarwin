@@ -1,0 +1,18 @@
+{
+  "name": "exit-ramp",
+  "description": "Veering off the highway at the last second to take a wild alternative path",
+  "structure": "last-second-swerve",
+  "slots": {
+    "highway": "The sensible/expected path",
+    "exit": "The wild alternative chosen at the last second"
+  },
+  "constraints": {
+    "highway": {"min_words": 3, "max_words": 20},
+    "exit": {"min_words": 3, "max_words": 25}
+  },
+  "format_template": "🛣️ Staying on: {highway}\n\n🚗💨 SWERVING to: {exit}",
+  "examples": [
+    "🛣️ Staying on: Responsible financial planning\n\n🚗💨 SWERVING to: Leveraged long on a coin I found in a Discord raid",
+    "🛣️ Staying on: Using proven DeFi protocols\n\n🚗💨 SWERVING to: Yield farming on a contract deployed 4 minutes ago"
+  ]
+}

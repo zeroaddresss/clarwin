@@ -1,0 +1,18 @@
+{
+  "name": "drake",
+  "description": "Two-panel format: reject one thing, prefer another",
+  "structure": "two-panel-comparison",
+  "slots": {
+    "reject": "The thing being rejected/dismissed (top panel)",
+    "prefer": "The thing being preferred/chosen (bottom panel)"
+  },
+  "constraints": {
+    "reject": {"min_words": 3, "max_words": 25},
+    "prefer": {"min_words": 3, "max_words": 25}
+  },
+  "format_template": "❌ {reject}\n\n✅ {prefer}",
+  "examples": [
+    "❌ Reading the docs\n\n✅ Deploying to mainnet and praying",
+    "❌ Careful portfolio allocation\n\n✅ Aping into whatever has the best logo"
+  ]
+}

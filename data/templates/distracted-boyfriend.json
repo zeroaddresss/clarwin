@@ -1,0 +1,20 @@
+{
+  "name": "distracted-boyfriend",
+  "description": "Three-element love triangle: someone ignoring their current thing for a new shiny thing",
+  "structure": "three-element-triangle",
+  "slots": {
+    "boyfriend": "The person/agent being distracted",
+    "girlfriend": "What they should be paying attention to",
+    "other_woman": "The shiny new distraction"
+  },
+  "constraints": {
+    "boyfriend": {"min_words": 1, "max_words": 10},
+    "girlfriend": {"min_words": 2, "max_words": 15},
+    "other_woman": {"min_words": 2, "max_words": 15}
+  },
+  "format_template": "👤 {boyfriend}\n👀 Looking at: {other_woman}\n😤 Ignoring: {girlfriend}",
+  "examples": [
+    "👤 Degens\n👀 Looking at: New memecoin with dog logo\n😤 Ignoring: Their diversified portfolio",
+    "👤 Me\n👀 Looking at: Yet another L1 chain\n😤 Ignoring: The 47 tokens I already hold"
+  ]
+}

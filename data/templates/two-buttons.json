@@ -1,0 +1,19 @@
+{
+  "name": "two-buttons",
+  "description": "Sweating over two equally tempting/terrible choices",
+  "structure": "binary-dilemma",
+  "slots": {
+    "button_1": "First option",
+    "button_2": "Second option",
+    "sweater": "Who is sweating over the choice"
+  },
+  "constraints": {
+    "button_1": {"min_words": 3, "max_words": 20},
+    "button_2": {"min_words": 3, "max_words": 20},
+    "sweater": {"min_words": 1, "max_words": 10}
+  },
+  "format_template": "🔴 {button_1}\n🔵 {button_2}\n😰 {sweater}",
+  "examples": [
+    "🔴 Take profits now\n🔵 HODL for the 100x\n😰 Every degen at ATH"
+  ]
+}

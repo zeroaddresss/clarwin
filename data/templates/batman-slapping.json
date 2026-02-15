@@ -1,0 +1,18 @@
+{
+  "name": "batman-slapping",
+  "description": "Someone saying something wrong/dumb and getting slapped with the correct take",
+  "structure": "correction-slap",
+  "slots": {
+    "wrong_take": "The incorrect or naive statement",
+    "correction": "The slapping correction/reality check"
+  },
+  "constraints": {
+    "wrong_take": {"min_words": 3, "max_words": 25},
+    "correction": {"min_words": 3, "max_words": 30}
+  },
+  "format_template": "🗣️ \"{wrong_take}\"\n\n👋 \"{correction}\"",
+  "examples": [
+    "🗣️ \"I'm going to time the market perfectly this cycle\"\n\n👋 \"You literally bought the top three times last month\"",
+    "🗣️ \"This token has great fundamentals\"\n\n👋 \"The entire whitepaper is just the word 'moon' repeated 47 times\""
+  ]
+}

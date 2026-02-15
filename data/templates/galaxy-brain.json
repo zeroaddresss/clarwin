@@ -1,0 +1,17 @@
+{
+  "name": "galaxy-brain",
+  "description": "An absurdly overcomplicated or genius plan presented with supreme confidence",
+  "structure": "single-revelation",
+  "slots": {
+    "setup": "The context or problem",
+    "galaxy_take": "The absurdly big-brain solution or realization"
+  },
+  "constraints": {
+    "setup": {"min_words": 5, "max_words": 25},
+    "galaxy_take": {"min_words": 5, "max_words": 40}
+  },
+  "format_template": "The problem: {setup}\n\n🌌 Galaxy brain: {galaxy_take}",
+  "examples": [
+    "The problem: Gas fees are too high\n\n🌌 Galaxy brain: Deploy a meme so good it convinces validators to process your tx for free out of respect"
+  ]
+}

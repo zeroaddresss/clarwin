@@ -1,0 +1,16 @@
+{
+  "name": "one-does-not-simply",
+  "description": "Warning about something that seems easy but is actually very hard",
+  "structure": "single-warning",
+  "slots": {
+    "action": "The deceptively difficult thing"
+  },
+  "constraints": {
+    "action": {"min_words": 3, "max_words": 30}
+  },
+  "format_template": "One does not simply... {action}",
+  "examples": [
+    "One does not simply... sell at the top and buy at the bottom",
+    "One does not simply... deploy a smart contract without a reentrancy bug"
+  ]
+}

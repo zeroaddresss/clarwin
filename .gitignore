@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.local
+
+# Data (runtime-generated)
+data/population/
+data/archive/
+data/fitness-logs/
+
+# Docs (internal planning, marketing drafts)
+docs/
+
+# OpenClaw
+.openclaw/
+.clawhub/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Session artifacts
+MEMORY.md
+conversation.txt
+*.jsonl

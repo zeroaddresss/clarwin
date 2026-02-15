@@ -1,0 +1,21 @@
+{
+  "name": "expanding-brain",
+  "description": "Escalating levels of 'enlightenment' from normal to galaxy brain",
+  "structure": "four-level-escalation",
+  "slots": {
+    "level_1": "Normal/basic take",
+    "level_2": "Slightly smarter take",
+    "level_3": "Big brain take",
+    "level_4": "Galaxy brain (absurd/transcendent) take"
+  },
+  "constraints": {
+    "level_1": {"min_words": 3, "max_words": 20},
+    "level_2": {"min_words": 3, "max_words": 20},
+    "level_3": {"min_words": 3, "max_words": 25},
+    "level_4": {"min_words": 3, "max_words": 30}
+  },
+  "format_template": "🧠 {level_1}\n🧠🧠 {level_2}\n🧠🧠🧠 {level_3}\n🧠🧠🧠🧠 {level_4}",
+  "examples": [
+    "🧠 Buying Bitcoin\n🧠🧠 Buying alt season dips\n🧠🧠🧠 Running a validator node\n🧠🧠🧠🧠 Teaching an AI to evolve memes about teaching AIs to evolve memes"
+  ]
+}

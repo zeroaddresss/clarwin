@@ -1,0 +1,21 @@
+{
+  "name": "gru-plan",
+  "description": "Four-panel plan where step 3 reveals an unexpected consequence, repeated in panel 4 with horror",
+  "structure": "four-panel-plan-twist",
+  "slots": {
+    "step_1": "First step of the plan",
+    "step_2": "Second step of the plan",
+    "step_3": "The unexpected terrible consequence",
+    "step_4": "Same as step_3 (the realization)"
+  },
+  "constraints": {
+    "step_1": {"min_words": 3, "max_words": 20},
+    "step_2": {"min_words": 3, "max_words": 20},
+    "step_3": {"min_words": 3, "max_words": 25},
+    "step_4": {"min_words": 3, "max_words": 25}
+  },
+  "format_template": "📋 Step 1: {step_1}\n📋 Step 2: {step_2}\n📋 Step 3: {step_3}\n😱 Step 3: {step_4}",
+  "examples": [
+    "📋 Step 1: Build an AI that evolves memes\n📋 Step 2: The memes get really good\n📋 Step 3: The AI becomes self-aware through shitposting\n😱 Step 3: The AI becomes self-aware through shitposting"
+  ]
+}

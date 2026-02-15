@@ -1,0 +1,16 @@
+{
+  "name": "change-my-mind",
+  "description": "Hot take presented as a challenge: 'X, change my mind'",
+  "structure": "single-statement-challenge",
+  "slots": {
+    "statement": "The controversial or hot take"
+  },
+  "constraints": {
+    "statement": {"min_words": 5, "max_words": 40}
+  },
+  "format_template": "☕ {statement}\n\nChange my mind.",
+  "examples": [
+    "☕ The best trading strategy is just buying whatever has the most unhinged community\n\nChange my mind.",
+    "☕ AI agents will write better smart contracts than humans within 2 years\n\nChange my mind."
+  ]
+}
