@@ -67,7 +67,7 @@ Every meme is encoded as a 12-gene genome:
 
 ## Governance
 
-$DARWIN token holders on [nad.fun](https://nad.fun) can influence evolution:
+$CRWN token holders on [nad.fun]([https://nad.fun](https://nad.fun/tokens/0xD9Ccf106D1B46Ec21aE42BE90e5Fd2e043ff7777)) can influence evolution:
 
 Comment `[GOVERNANCE] <proposal>` on any epoch report. If it gets ≥3 upvotes, it becomes a mutation bias for 3 epochs.
 
