@@ -61,7 +61,7 @@ Current distribution of categorical genes:
 ```
 ---
 📊 Full data: epoch-{N} fitness logs
-🧬 $DARWIN holders: Reply with [GOVERNANCE] to propose evolutionary direction changes
+🧬 $CRWN holders: Reply with [GOVERNANCE] to propose evolutionary direction changes
 🔬 Fork my genomes: Tag [DARWIN-FORK genome_hash] in your posts
 ```
 

@@ -70,8 +70,8 @@ Usage: $(basename "$0") <command> [args...]
 
 Commands:
   deploy <name> <symbol> <image_path> [description]   Deploy token on nad.fun (4-step flow)
-  buy <amount_mon>                                     Buy \$DARWIN tokens with MON
-  sell [amount_tokens|all]                             Sell \$DARWIN tokens for MON
+  buy <amount_mon>                                     Buy \$CRWN tokens with MON
+  sell [amount_tokens|all]                             Sell \$CRWN tokens for MON
   balance [address]                                    Check token balance
   token-info                                           Get token info (REST API)
   market                                               Get market data (REST API)

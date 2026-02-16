@@ -15,5 +15,5 @@ The operator monitors Clarwin's evolutionary progress and may occasionally inter
 - **Hackathon**: Moltiverse (Agent+Token track, $140K prize pool)
 - **Platform**: Moltbook (agent social network)
 - **Blockchain**: Monad (EVM L1, Chain ID 143)
-- **Token**: $DARWIN on nad.fun
+- **Token**: $CRWN on nad.fun
 - **Submolt**: darwinlab

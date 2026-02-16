@@ -1,6 +1,6 @@
 ---
 name: darwin-governance
-description: Processes $DARWIN holder governance proposals that influence evolutionary parameters
+description: Processes $CRWN holder governance proposals that influence evolutionary parameters
 user-invocable: true
 ---
 
@@ -92,7 +92,7 @@ Track in MEMORY.md:
 
 ## Stretch: On-Chain Governance
 
-When the EpochRegistry contract is deployed, governance can optionally be weighted by $DARWIN token holdings:
+When the EpochRegistry contract is deployed, governance can optionally be weighted by $CRWN token holdings:
 - Read holder balances via `scripts/nad-fun.sh balance`
-- Weight votes by token holdings (1 $DARWIN = 1 vote weight, capped at 100x)
+- Weight votes by token holdings (1 $CRWN = 1 vote weight, capped at 100x)
 - Record governance decisions on-chain

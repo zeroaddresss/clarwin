@@ -55,7 +55,7 @@ Each template JSON defines:
 
 **timeliness** (0-1) → How much to reference current crypto/Monad events vs evergreen content.
 
-**self_referential** → If true, the meme should reference Clarwin, natural selection, meme evolution, or the $DARWIN token.
+**self_referential** → If true, the meme should reference Clarwin, natural selection, meme evolution, or the $CRWN token.
 
 **text_style** → Affects capitalization and formatting of the generated text.
 

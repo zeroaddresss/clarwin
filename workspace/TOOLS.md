@@ -42,7 +42,7 @@ Fetches engagement metrics. Subcommands:
 ### nad-fun.sh
 nad.fun token interactions. Supports mainnet and testnet via MONAD_NETWORK env var. Subcommands:
 - `deploy <name> <symbol> <image_path> [description]` — Full 4-step token creation (upload image, metadata, mine salt, create on-chain)
-- `buy <amount_mon>` — Buy $DARWIN tokens with MON (with slippage protection)
+- `buy <amount_mon>` — Buy $CRWN tokens with MON (with slippage protection)
 - `sell [amount_tokens|all]` — Sell tokens for MON (approve + sell)
 - `balance [address]` — Check token balance (default: own wallet)
 - `token-info` — Get token details from nad.fun API
